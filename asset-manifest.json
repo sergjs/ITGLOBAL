@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ITGLOBAL/static/css/main.77372181.chunk.css",
+    "main.css": "/ITGLOBAL/static/css/main.af4dd87c.chunk.css",
     "main.js": "/ITGLOBAL/static/js/main.9c73f179.chunk.js",
     "main.js.map": "/ITGLOBAL/static/js/main.9c73f179.chunk.js.map",
     "runtime-main.js": "/ITGLOBAL/static/js/runtime-main.af46f58f.js",
@@ -8,14 +8,14 @@
     "static/js/2.fa88a8d3.chunk.js": "/ITGLOBAL/static/js/2.fa88a8d3.chunk.js",
     "static/js/2.fa88a8d3.chunk.js.map": "/ITGLOBAL/static/js/2.fa88a8d3.chunk.js.map",
     "index.html": "/ITGLOBAL/index.html",
-    "static/css/main.77372181.chunk.css.map": "/ITGLOBAL/static/css/main.77372181.chunk.css.map",
+    "static/css/main.af4dd87c.chunk.css.map": "/ITGLOBAL/static/css/main.af4dd87c.chunk.css.map",
     "static/js/2.fa88a8d3.chunk.js.LICENSE.txt": "/ITGLOBAL/static/js/2.fa88a8d3.chunk.js.LICENSE.txt",
     "static/media/index.css": "/ITGLOBAL/static/media/Golos-Text_Regular.8f52cab9.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.af46f58f.js",
     "static/js/2.fa88a8d3.chunk.js",
-    "static/css/main.77372181.chunk.css",
+    "static/css/main.af4dd87c.chunk.css",
     "static/js/main.9c73f179.chunk.js"
   ]
 }
