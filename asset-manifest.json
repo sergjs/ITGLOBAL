@@ -1,23 +1,21 @@
 {
   "files": {
     "main.css": "/ITGLOBAL.git/static/css/main.a77d42bc.chunk.css",
-    "main.js": "/ITGLOBAL.git/static/js/main.67995de9.chunk.js",
-    "main.js.map": "/ITGLOBAL.git/static/js/main.67995de9.chunk.js.map",
-    "runtime-main.js": "/ITGLOBAL.git/static/js/runtime-main.b2da02c7.js",
-    "runtime-main.js.map": "/ITGLOBAL.git/static/js/runtime-main.b2da02c7.js.map",
+    "main.js": "/ITGLOBAL.git/static/js/main.369061a7.chunk.js",
+    "main.js.map": "/ITGLOBAL.git/static/js/main.369061a7.chunk.js.map",
+    "runtime-main.js": "/ITGLOBAL.git/static/js/runtime-main.f8add448.js",
+    "runtime-main.js.map": "/ITGLOBAL.git/static/js/runtime-main.f8add448.js.map",
     "static/js/2.fa88a8d3.chunk.js": "/ITGLOBAL.git/static/js/2.fa88a8d3.chunk.js",
     "static/js/2.fa88a8d3.chunk.js.map": "/ITGLOBAL.git/static/js/2.fa88a8d3.chunk.js.map",
-    "static/js/3.1c49f97a.chunk.js": "/ITGLOBAL.git/static/js/3.1c49f97a.chunk.js",
-    "static/js/3.1c49f97a.chunk.js.map": "/ITGLOBAL.git/static/js/3.1c49f97a.chunk.js.map",
     "index.html": "/ITGLOBAL.git/index.html",
     "static/css/main.a77d42bc.chunk.css.map": "/ITGLOBAL.git/static/css/main.a77d42bc.chunk.css.map",
     "static/js/2.fa88a8d3.chunk.js.LICENSE.txt": "/ITGLOBAL.git/static/js/2.fa88a8d3.chunk.js.LICENSE.txt",
     "static/media/index.css": "/ITGLOBAL.git/static/media/Golos-Text_Regular.8f52cab9.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.b2da02c7.js",
+    "static/js/runtime-main.f8add448.js",
     "static/js/2.fa88a8d3.chunk.js",
     "static/css/main.a77d42bc.chunk.css",
-    "static/js/main.67995de9.chunk.js"
+    "static/js/main.369061a7.chunk.js"
   ]
 }
