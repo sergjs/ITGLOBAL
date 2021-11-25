@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Golos';
+  src: url('./font/Golos-Text_Regular.woff'),
+  url('./font/Golos-Text_Regular.woff2');
+}
+*, *:before, *:after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: 0;
+  font-family: Golos;
+}
+body {
+  margin: 0;
+  font-family: 'Golos';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

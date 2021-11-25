@@ -1,0 +1,133 @@
+.header_burger {
+    display: flex;
+    position: relative;
+    width: 19px;
+    height: 19px;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 3;
+    cursor: pointer;
+  }
+.header_b_1{
+    border: 0.5px solid #151617;
+    transition: all 0.3s ease 0.1s;
+    background-color: #151617;
+  }
+.header_b_2{
+    border: 0.5px solid #151617;
+    transition: all 0.3s ease 0.1s;
+    background-color: #151617;
+  }
+.header_b_3{
+    border: 0.5px solid #151617;
+    transition: all 0.3s ease 0.1s;
+    background-color: #151617;
+  }
+.header_b_3.active{
+    transform: translateY(-6px) rotate(45deg);
+    transition: all 0.3s ease 0.1s;
+}
+.header_b_1.active{
+    transform: translateY(6.5px) rotate(-45deg);
+    transition: all 0.3s ease 0.1s;
+}
+.header_b_2.active{
+    transform: scale(0);
+    transition: all 0.3s ease 0.1s; 
+}
+.header_menu {
+    position: fixed; 
+    top: -120%;
+    left: 0;
+    width: 100%;
+    height: 640px;
+    background-color: #FFFFFF; 
+    transition: all 0.6s ease 0.1s;
+    z-index: -1;
+}
+.header_menu.active {
+    top: 0;
+    z-index: 0;
+    transition: all 0.6s ease 0.1s;
+}
+.header_list {
+    width: 300px;
+    display: inline-block;
+    margin-right: 40px;
+    height: 180px;  
+    box-sizing: border-box; 
+}  
+.container { 
+    display: flex;
+    width: 9999px;
+    transition: all 0.6s ease 0.1s;
+}
+.wrapper_elem_li{
+    box-sizing: border-box; 
+    position: absolute;
+    width: 320px; 
+    height: 867px;
+    overflow: hidden; 
+    top: 119px;
+    left: 30px;
+} 
+.header_link {
+	text-decoration: none;
+    font-weight: 500; 
+    color: #151617; 
+    width: 100%;  
+    z-index: 3;  
+    white-space: pre;
+}
+.elem_li {
+	list-style: none; 
+    height: 47px; 
+    display: flex; 
+    cursor: pointer;
+    position: relative;
+} 
+.spoiler{
+    margin-top: 9px;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+} 
+.container_menu3{ 
+    overflow-y: auto;
+    background-color: #ffffff;
+    height: 467px;
+}
+.overflow {
+    min-height: 126px;
+  }
+.container_menu3::-webkit-scrollbar {
+    width: 2px; 
+}
+.container_menu3::-webkit-scrollbar-thumb {
+    background-color: #C6D6E5;
+}
+.separator{
+    width: 360px;
+    height: 1px;
+    margin: 20px 0 20px -20px;
+    background: #C6D6E5; 
+}
+.title_menu{
+    margin-bottom: 41px;
+}
+
+.header_list:last-child{
+    position: relative;
+}
+.contacts{ 
+    margin-top: 219px;
+    width: 300px;
+    height: 84px;
+}
+.contacts p{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px; 
+    color: #151617;
+    margin-top: 20px;
+}
