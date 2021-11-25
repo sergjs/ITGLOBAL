@@ -84,3 +84,38 @@ height: 24px;
 	font-size: 14px;
 	line-height: 24px;
 }
+.arrow{
+    width: 16px;
+    height: 16px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: relative; 
+	cursor: pointer; 
+} 
+.arrow:before,
+.arrow:after { 
+	border: 0.3px solid #849BAF;
+	background: #849BAF;
+	width: 6px;
+	position: absolute;
+	content: '';
+	top: 8px;
+}
+.arrow:after {
+	transform: rotate(-40deg);
+	left: 5px;
+	transition: all 0.3s ease 0.1s;
+}
+.arrow:before{
+	transform: rotate(40deg);
+	left: 0;
+	transition: all 0.3s ease 0.1s;
+}
+.arrow.active:before {
+	transform: rotate(-40deg);
+	transition: all 0.3s ease 0.1s;
+}
+.arrow.active:after{
+	transform: rotate(40deg);
+	transition: all 0.3s ease 0.1s;
+}

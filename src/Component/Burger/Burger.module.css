@@ -93,7 +93,7 @@
     right: 0;
 } 
 .container_menu3{ 
-    overflow-y: auto;
+    overflow-y: scroll;
     background-color: #ffffff;
     height: 467px;
 }

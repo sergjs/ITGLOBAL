@@ -26,7 +26,7 @@ const Language = ({ state, chengeState, isActiveLanguage, setIsActiveLanguage })
             <div className={!isActiveLanguage ? la.wrapper : la.wrapper + ' ' + la.active} >
                 <img src={flag} className={la.country} />
                 <div className={la.name_country}> {nameCountry} </div>
-                <Spoiler isActive={!isActiveLanguage} deg='0' color={'#849BAF'} />
+                <div className={!isActiveLanguage ? la.arrow : la.arrow + " " + la.active}> </div>
             </div>
             <div onClick={(e) => e.stopPropagation()} className={!isActiveLanguage ? la.container : la.container + " " + la.active}>
                 <div className={la.country_head_box} >

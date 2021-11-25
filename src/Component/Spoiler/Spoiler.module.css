@@ -8,8 +8,8 @@
 } 
 .arrow:before,
 .arrow:after { 
-	border-width: 0.3px;
-	border-style: solid;
+	border: 0.3px solid #1D7DED;
+	background: #1D7DED;
 	width: 6px;
 	position: absolute;
 	content: '';
